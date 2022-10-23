@@ -1,4 +1,4 @@
-/* 
+/*
 
 Stacked Template
 
@@ -203,7 +203,7 @@ ul {
 }
 
 .panel {
-  margin: 0;	
+  margin: 0;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -325,9 +325,9 @@ ul {
 	display: inline-block;
 }
 
-.home-content .left-text {     
-	float: left;     
-	width: 60%; 
+.home-content .left-text {
+	float: left;
+	width: 60%;
 }
 
 .home-content .left-text h4 {
@@ -629,9 +629,9 @@ ul {
   .home-content h1 em {
     font-size: 36px;
   }
-  .home-content .left-text {     
-    float: none;     
-    width: auto; 
+  .home-content .left-text {
+    float: none;
+    width: auto;
   }
   .home-content .right-image {
     text-align: center;
@@ -1136,4 +1136,13 @@ body.lb-disable-scrolling {
 
 .owl-carousel .owl-nav {
   display: none;
+}
+
+
+
+
+/* main_style */
+.main_li > a {
+	color: #dcdcdc;
+	font-size: 20px;
 }
