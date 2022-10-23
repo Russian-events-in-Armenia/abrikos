@@ -1143,6 +1143,8 @@ body.lb-disable-scrolling {
 
 /* main_style */
 
+
+/*  */
 .main_li_header {
 	color: white;
 	list-style: disc;
@@ -1157,16 +1159,59 @@ body.lb-disable-scrolling {
 }
 
 
-@media scree and (max-width: 990px) {
-	.text-content {
-	}
-}
 
-a.a_footer {
+
+/* ссылки в подвале */
+a.a_footer_2 {
 	font-family: 'Roboto', sans-serif !important;
 	margin-left: 10px;
+	font-weight: 300 !important;
 }
 
 .main-li {
 	margin-top: 15px;
 }
+
+
+
+/* Убрать border-radius у главных секций */
+section {
+	border-radius: 0 !important;
+}
+
+
+
+/* увеличить высоту блока "О нас" */
+@media screen and (max-width: 1200px) {
+	div.about-content {
+		height: 1200px !important;
+	}
+	div.about-content p {
+		text-align: left !important;
+	}
+}
+div.about-content {
+	margin-bottom: 350px !important;
+}
+
+
+
+li {
+	text-align: left !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* aaaaaaaaaaa */
