@@ -1189,9 +1189,9 @@ section {
 	div.about-content p {
 		text-align: left !important;
 	}
-}
-div.about-content {
-	margin-bottom: 350px !important;
+	.projects-content {
+		height: 700px !important;
+	}
 }
 
 
@@ -1200,6 +1200,29 @@ li {
 	text-align: left !important;
 }
 
+
+/* стили кнопки для волонтеров */
+
+.main_button a {
+  display: inline-block;
+  background-color: none;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 11px;
+  padding: 12px 18px;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+}
+
+.main_button a:hover {
+  background-color: #fa5252;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+	border: none;
+}
 
 
 
