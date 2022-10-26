@@ -584,7 +584,7 @@ ul {
 }
 
 .footer p {
-  padding: 20px 0px;
+  padding: 0px 0px;
   color: #fff;
   font-weight: 300;
 }
@@ -1226,9 +1226,21 @@ li {
 
 
 
-
-
-
+/* Стили для ссылок поделиться footer */
+a.share_footer {
+	margin-left: 10px;
+	font-size: 20px;
+	color: #fff;
+	outline: none !important;
+}
+a.share_footer:hover {
+	color: #fa5252;
+	text-decoration: none;
+	outline: none !important;
+}
+div.footer > div.share_footer {
+	paddign-bootom: 10px 0px !important;
+}
 
 
 
